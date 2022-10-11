@@ -8,10 +8,10 @@ for x in f:
    lst.append(x)
 lst.sort()
 mod = [eval(i) for i in lst]
+
 fin_list = []
 
-comb = list(itertools.combinations(mod, 8))
-#print(comb)
+
 
 #N = 8
 #subList = [mod[n:n+N] for n in range(0, len(mod), N)]
